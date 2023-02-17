@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("pavan.jpg");
+    background-size: cover;
+    background-position: fixed;
+
+    font-family: sans-serif;
+    display: flex;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 100px;
+    
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.loginbox input[type="text"] ,input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:#fb2525;
+}
+
+.loginbox a:hover{
+    color: #ffc107;
+}
+
+
+
+header{
+    width: 100%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family:montserrat;
+
+}
+
+nav{
+    background: #8EA7E9;
+    height: 80px;
+    width: 100%;
+}
+ .logo{
+    margin-left: 10px;
+    color: whitesmoke;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 0 100px;
+    font-weight: bold;
+ }
+ nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+ }
+ nav ul li a{
+    color:#000000;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+ }
+
+ .order{
+    
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.forgot{
+    background-image: url("background.png");
+    background-size: cover;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+ .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 25px;
+    border-radius: 0.8rem;
+    background-color: rgb(0,0,0,0.4);
+    border: 1px solid blue;
+ }
+  .wrapper img{
+    width: 50px;
+  }
+  .wrapper h1{
+    font-size: 30px;
+   
+  }
+  .wrapper h3{
+  
+    font-size: 20px;
+    font-weight: 300;
+  }
+.wrapper .field{
+    height: 60px; 
+}
+.wrapper input
+{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    padding-left: 35px;
+    border: 1px solid white;
+}
+.wrapper span{
+    position: absolute;
+    color: black;
+    padding: 2px;
+    left: 20px;
+    top: auto;
+}
+.wrapper button{
+width: 230px;
+height: 30px;
+border-radius: 0.3rem;
+color: white;
+background-color: #007dff;
+}
+.link1 a{
+  text-decoration: none;
+  color: #007dff;
+}
+
+.back {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+

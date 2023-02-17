@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.2)rgb(0,0,0,0.2)rgb(0,0,0,0.2) url(siri.jpg));
+    background-size: cover;
+
+}
+form{
+    margin-top: 50px;
+    text-align: center ;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+button{
+    width: 350px;
+    height:30px ;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;margin-bottom: 20px;
+}
+form h1{
+margin-bottom: 30px;
+color: aqua;
+}
+::placeholder{
+    color:white;
+}

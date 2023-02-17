@@ -1,0 +1,64 @@
+body{
+    background-image: url("background.png");
+    background-size: cover;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+ .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 25px;
+    border-radius: 0.8rem;
+    
+    background-color: rgb(0,0,0,0.4);
+ }
+  .wrapper img{
+    width: 50px;
+  }
+  .wrapper h1{
+    font-size: 30px;
+   
+  }
+  .wrapper h3{
+  
+    font-size: 20px;
+    font-weight: 300;
+  }
+.wrapper .field{
+    height: 60px; 
+}
+.wrapper input
+{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    padding-left: 35px;
+}
+.wrapper span{
+    position: absolute;
+    color: black;
+    padding: 2px;
+    left: 20px;
+    top: auto;
+}
+.wrapper button{
+width: 230px;
+height: 30px;
+border-radius: 0.3rem;
+color: white;
+background-color: #007dff;
+}
+.link1 a{
+  text-decoration: none;
+  color: #007dff;
+}
+
+.back {
+  margin-top: 20px;
+  margin-left: 10px;
+}
